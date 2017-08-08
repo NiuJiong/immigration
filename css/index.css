@@ -1,0 +1,34 @@
+body,html,h1,h2,h3,h4,h5,h6,p,a,ul,ol,li,p,span{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.clearlr:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	vertical-align: middle;
+}
+.clear{
+	zoom: 1;
+}
+header{
+	max-width: 1200px;
+	margin: auto;
+	border: 1px solid red;
+}
+header .logo{
+	float: left;
+}
+header .right{
+	float: right;
+}
+header .right div{
+	float: left;
+}
