@@ -1295,14 +1295,21 @@ nav .twonav a.active{
 		margin:5px 1.5%;
 	}
 }
+
+
+
 .case .lmia{
 	border: 1px solid red;
 	vertical-align: bottom;
 }
 .case .lmia li{
-	float: left;
+	display: inline-block;
 	border: 1px solid red;
 	vertical-align: bottom;
+}
+.case .lmia li img{
+	width: 100%;
+	height: auto;
 }
 .case .lmia li:nth-child(1){
 	width:15%;
@@ -1322,6 +1329,14 @@ nav .twonav a.active{
 .case .lmia li:nth-child(5){
 	width:15%;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1421,6 +1436,7 @@ nav .twonav a.active{
 
 
 footer{
+	margin-top: 100px;
 	background: #38424B;
 	text-align: center;
 	color: white;
@@ -1462,6 +1478,7 @@ footer p{
 
 @media screen and (max-width: 992px) {
 	footer{
+		margin-top: 20px;
 		background: #38424B;
 		text-align: center;
 		color: white;
