@@ -16,6 +16,8 @@ strong{
 u{
 	text-decoration: none;
 	color: #C8161E;
+	margin: 0;
+	padding: 0;
 }
 .clearlr::after{
 	content: "";
@@ -676,7 +678,7 @@ nav .twonav a.active{
 		background: url(../imags/dian.png) no-repeat 10px 4px;
 		background-size:10px auto;
 		/*padding: 0 10px;*/
-		text-indent: 20px;
+		text-indent:28px;
 		font-size:12px;
 	}
 	.experience .content .right ul li u{
@@ -746,7 +748,7 @@ nav .twonav a.active{
 		width: 100%;
 	}
 	.experience .hrefff u{
-		margin-left:20px;
+		margin-left:25px;
 	}
 }
 
@@ -1298,40 +1300,50 @@ nav .twonav a.active{
 
 
 
+
+
 .case .lmia{
-	vertical-align: bottom;
+	position: relative;
+}
+.case .lmia::before{
+	content: ' ';
+	display: block;
+	padding-top:33%;
 }
 .case .lmia li{
-	display: inline-block;
-	vertical-align: bottom;
-}
-.case .lmia li img{
-	width: 100%;
-	height: auto;
+	position: absolute;
+	bottom: 0;
 }
 .case .lmia li:nth-child(1){
-	width:16.5%;
+		left: 0;
+		bottom: 0;
+		z-index: 33333;
+		width: 18%;
 }
 .case .lmia li:nth-child(2){
-	width:21.75%;
-	margin-left: -2%;
-}	
+		left:17%;
+		bottom: 0;
+		z-index: 44444;
+		width: 22%;
+}
 .case .lmia li:nth-child(3){
-	width:27%;
-	margin-left: -1%;
-	z-index: 99999;
+		left:38%;
+		bottom: 0;
+		z-index: 55555;
+		width: 25%;
 }
 .case .lmia li:nth-child(4){
-	width:21.75%;
-	margin-left: -1%;
+		left:62%;
+		bottom: 0;
+		z-index: 44444;
+		width: 22%;
 }
 .case .lmia li:nth-child(5){
-	width:16.5%;
-	margin-left: -1%;
+		left:82%;
+		bottom: 0;
+		z-index: 33333;
+		width: 18%;
 }
-
-
-
 
 
 
