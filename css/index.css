@@ -401,6 +401,10 @@ nav .twonav a.active{
 	vertical-align: text-bottom;
 	margin-right: 30px;
 }
+.employer ul li u{
+	font-weight: bold;
+	margin-left: 1px;
+}
 .employer .right .bottom{
 	
 }
@@ -884,16 +888,27 @@ nav .twonav a.active{
 		display: inline-block;
 		width: auto;
 		padding: 30px;
-		padding-right: 500px;
+		/*padding-right: 500px;*/
+		padding-right:30px;
 		background: url(../imags/unsc02.png) no-repeat 0 center;
 		background-size:100% 85px;
-	}
+		transition: all 0.5s;
+}
+.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+	padding-right: 500px;
+}
 .condition .unscramble .right ul li:nth-child(2) span:nth-child(2){
 	display: inline-block;
 	padding: 30px;
-	padding-right: 250px;
+	/*padding-right: 250px;*/
+	padding-right:30px;
+	
 	background: url(../imags/unsc01.png) no-repeat 0 center;
 	background-size:100% 85px;
+	transition: all 0.5s;
+}
+.condition .unscramble .right ul li:nth-child(2) span:nth-child(2):hover{
+	padding-right: 250px;
 }
 .condition .unscramble .right ul li:nth-child(3) span:nth-child(2){
 	display: inline-block;
@@ -905,16 +920,26 @@ nav .twonav a.active{
 .condition .unscramble .right ul li:nth-child(4) span:nth-child(2){
 	display: inline-block;
 	padding: 30px;
-	padding-right:160px;
+	/*padding-right:160px;*/
+	padding-right: 30px;
 	background: url(../imags/unsc01.png) no-repeat 0 center;
 	background-size:100% 85px;
+	transition: all 0.5s;
+}
+.condition .unscramble .right ul li:nth-child(4) span:nth-child(2):hover{
+	padding-right: 160px;
 }
 .condition .unscramble .right ul li:nth-child(5) span:nth-child(2){
 	display: inline-block;
 	padding: 30px;
-	padding-right:550px;
+	/*padding-right:550px;*/
+	padding-right: 40px;
 	background: url(../imags/unsc02.png) no-repeat 0 center;
 	background-size:100% 85px;
+	transition: all 0.5s;
+}
+.condition .unscramble .right ul li:nth-child(5) span:nth-child(2):hover{
+	padding-right: 550px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -936,16 +961,18 @@ nav .twonav a.active{
 		margin-right: 0;
 		line-height: 20px;
 	}
-	/*.condition .unscramble .left{
-		float: left;
-		width: 12%;
-		background: #EBF2F7;
-		padding: 10px;
-		font-size: 22px;
-		color: #3B3B3B;
-		margin-right: 20px;
-		line-height: 40px;
-	}*/
+	.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+		padding-right: 30px;
+	}
+	.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+		padding-right: 30px;
+	}
+	.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+		padding-right: 30px;
+	}
+	.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+		padding-right: 30px;
+	}
 	.condition .unscramble .right{
 		float: none;	
 		width: auto;
@@ -1495,6 +1522,7 @@ footer p{
 		text-align: center;
 		color: white;
 		padding: 20px 0;
+		margin-bottom:30px;
 	}
 	footer .top{
 		border-bottom: 1px solid #535151;
@@ -1532,5 +1560,111 @@ footer p{
 		font-size:12px;
 		color: #F5F5F5;
 		margin-top:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+slide{
+	position: fixed;
+	top: 55%;
+	right: 5px;
+}
+slide .tele,slide .qq{
+	/*width: 50px;
+	height: 50px;*/
+	border: 1px solid red;
+	border-radius:5px;
+	margin-top: 20px;
+	text-align: center;
+	color: red;
+	font-size: 12px;
+	background: white;
+	padding: 5px;
+	cursor: pointer;
+}
+
+slide .tele>img,slide .qq>img{
+	width:25px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom:8px;
+}
+slide .popup img,slide .popup img{
+	display:inline-block;
+	width: 25px;
+	vertical-align: middle;
+	margin-right: 15px;
+	margin-top: -3px;
+}
+slide .popup{
+	position: absolute;
+	right: 0;
+	top: 110%;
+	background: #C81820;
+	color: white;
+	width: 200px;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 5px;
+	font-size: 20px;
+	display: none;
+	cursor: pointer;
+}
+slide .popup.active,slide .popup.active{
+	display: block;
+}
+@media screen and (max-width: 992px) {
+	slide{
+		position: fixed;
+		top:inherit;
+		right:0;
+		left: 0;
+		bottom:0;
+	}
+	slide .tele>img,slide .qq>img{
+		width:20px;
+		margin: 0;
+		margin-top: 5px;
+		margin-bottom:8px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 5px
+	}
+	slide .tele>p,slide .qq>p{
+		display: inline-block;
+	}
+	slide .tele,slide .qq{
+		float: left;
+		border:none;
+		border-radius:0;
+		margin-top:0;
+		text-align: center;
+		color: red;
+		font-size: 12px;
+		background: white;
+		padding: 0;
+		width: 50%;
+	}
+	slide .popup{
+		display: none;
+	}
+	slide .popup.active,slide .popup.active{
+		display: none;
+	}
+	slide .tele:nth-child(1){
+		background:#F7FAFD;
 	}
 }
