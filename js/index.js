@@ -46,6 +46,6 @@ $(function(){
 //		},1000);
 		$('html,body').animate({
 			scrollTop:top
-		},1000);
+		},500);
 	});
 })
