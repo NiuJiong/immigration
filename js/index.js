@@ -30,7 +30,7 @@ $(function(){
 		$("slide .popup").removeClass("active");
 		$(this).next().addClass("active");
 	});
-	
+
 	
 //	nav点击效果
 	$(".twonav div").click(function(){
@@ -47,5 +47,34 @@ $(function(){
 		$('html,body').animate({
 			scrollTop:top
 		},500);
+	});
+	
+	
+//	form
+	$(".butto").click(function(){
+		$(".message").addClass("active");
+	});
+	$(".x").click(function(){
+		$(".message").removeClass("active");
+	});
+	if($(window).width()<768){
+		$(".qq").click(function(){
+			$(".message").addClass("active");
+		});
+	}
+	$(".message .big .content form .label").click(function(){
+		if($(this).children(".che").is(".active")){
+			$(this).children(".che").removeClass("active");
+			if($(this).is(".lastlax")){
+				$(".qita").removeClass("active");
+			}
+		}else{
+			$(this).children(".che").addClass("active");
+			if($(this).is(".lastlax")){
+				
+				$(".qita").addClass("active");
+				
+			}
+		}	
 	});
 })
