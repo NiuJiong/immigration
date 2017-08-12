@@ -127,6 +127,18 @@ $(function(){
 		}
 	});
 	
+	$(".message .content form input").click(function(){
+		$(".message .content form input").removeClass("active");
+		$(".message .content form textarea").removeClass("active");
+		$(this).addClass("active");
+	});
+	$(".message .content form textarea").click(function(){
+		$(".message .content form input").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	
+	
 	
 //	弹窗
 	setTimeout(function(){
