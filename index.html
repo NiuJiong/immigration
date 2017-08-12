@@ -456,7 +456,7 @@
 						<div class="done">
 							<p>出生年月<span>*</span></p>
 							<p class="tianxie">请填写此项</p>
-							<input type="text" />
+							<input onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
 						</div>
 						<div class="done">
 							<p>联系方式<span>*</span></p>
@@ -589,4 +589,15 @@
 	</body>
 	<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+			$(".message_content .muban .two").click(function(){
+				if($(".addqianming").hasClass("active")){
+					$(".addqianming").removeClass("active");
+						
+				}else{
+					$(".addqianming").addClass("active");	
+				}
+			});
+	</script>
 </html>
