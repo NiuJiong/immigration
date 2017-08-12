@@ -22,7 +22,7 @@
 					<div class="">
 						<a href="###">
 							<p>在线咨询</p>
-							<p>—  全年无休  —</p>
+							<p>—  <span>全年无休</span>  —</p>
 						</a>
 					</div>
 				</div>
@@ -245,11 +245,11 @@
 			</div>
 			<div class="right">
 				<ul>
-					<li><span>技术类型O</span><span>包括高级管理职位，中级和其他管理职位</span></li>
-					<li><span>技术类型A</span><span>包括高级管理职位，中级和其他管理职位</span></li>
-					<li><span>技术类型B</span><span>要求大专学历或职业教育、学徒训练或三到四年的中学教育加上超过两年的在职培训专门的训练课程和专业工作经验</span></li>
-					<li><span>技术类型C</span><span>需要中学教育/或者专业的斐讯职业</span></li>
-					<li><span>技术类型D</span><span>通常需要在职培训</span></li>
+					<li><span>技术类型O</span><span class="numadd">包括高级管理职位，中级和其他管理职位</span></li>
+					<li><span>技术类型A</span><span class="numadd">包括高级管理职位，中级和其他管理职位</span></li>
+					<li><span>技术类型B</span><span class="numadd">要求大专学历或职业教育、学徒训练或三到四年的中学教育加上超过两年的在职培训专门的训练课程和专业工作经验</span></li>
+					<li><span>技术类型C</span><span class="numadd">需要中学教育/或者专业的斐讯职业</span></li>
+					<li><span>技术类型D</span><span class="numadd">通常需要在职培训</span></li>
 				</ul>
 			</div>
 		</div>
@@ -443,26 +443,32 @@
 					
 					
 					<form action="">
-						<div class="">
+						<div class="done">
+							
 							<p>称呼<span>*</span></p>
+							<p class="tianxie">请填写此项</p>
 							<input type="text" />
 						</div>
-						<div class="">
+						<div class="done">
 							<p>出生年月<span>*</span></p>
+							<p class="tianxie">请填写此项</p>
 							<input type="text" />
 						</div>
-						<div class="">
+						<div class="done">
 							<p>联系方式<span>*</span></p>
 							<p class="pppptwo">手机、QQ、微信均可。</p>
+							<p class="tianxie">请填写此项</p>
 							<input type="text" />
 						</div>
-						<div class="">
+						<div class="done">
 							<p>子女年龄<span>*</span></p>
 							<p class="pppptwo">如多于一名子女，请用逗号分隔子女的年龄，如“04，11”（一个4岁，一个11岁）</p>
+							<p class="tianxie">请填写此项</p>
 							<input type="text" />
 						</div>
-						<div class="">
+						<div class="donetwo">
 							<p>是否符合下列任何描述<span>*</span></p>
+							<p class="tianxie">请填写此项</p>
 							<div class="label">
 								<input type="checkbox" name="isno" />
 								<span class="che"></span>
@@ -492,8 +498,9 @@
 								</span>
 							</div>
 						</div>
-						<div class="">
+						<div class="donetwo">
 							<p>如何了解到我处可以办理的？<span>*</span></p>
+							<p class="tianxie">请填写此项</p>
 							<div class="label">
 								<input type="checkbox" name="isno" />
 								<span class="che"></span>
@@ -540,16 +547,36 @@
 								<input type="text"  class="qita"/>
 							</div>
 						</div>
-						<div class="">
+						<div class="doneone">
 							<p>咨询过哪些国内中介，他们的价格是多少<span>*</span></p>
 							<p class="pppptwo">请详细填写中介的名称和价格，如：</p>
 							<p class="pppptwo">北京金征远70万。如未曾咨询过国内中介，请填写“从未咨询过。”</p>
+							<p class="tianxie">请填写此项</p>
 							<textarea name="" rows="" cols=""></textarea>
 						</div>
-						<button>提交</button>
+						<button class="clitj" type="button">提交</button>
 					</form>
 				</div>
 			</div>
+		</div>
+		
+		
+		
+		<div class="popupwindows">
+			<div class="">
+				<span class="suoxiao">-</span><span class="yuyues">点击预约</span>
+			</div>
+			<div class="">
+				<p>逛了这么久，一定还有很多疑问吧？</p>
+				<p>和我们的专家一对一聊聊吧。</p>
+				<p>3分钟的聊天节省您3小时苦找哦~</p>
+			</div>
+			
+			<div class="">
+				<input type="text" placeholder="请填写您的姓名"/>
+				<input type="text" placeholder="请填写您的电话"/>
+			</div>
+			<button>点击预约</button>
 		</div>
 	</body>
 	<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>

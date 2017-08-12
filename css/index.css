@@ -73,11 +73,15 @@ header .right div:nth-child(2) a{
 	background: url(../imags/zixun.png) no-repeat 0 center;
 	background-size:50px auto;
 	display: block;
-	padding-left: 60px;
+	padding-left: 70px;
+}
+header .right div:nth-child(2) a span{
+	margin: 0 10px
 }
 header .right div:nth-child(2) p:nth-child(1){
 	color: #017BB6;
 	font-size: 24px;
+	letter-spacing: 8px;
 }
 header .right div:nth-child(2) p:nth-child(2){
 	color: #CACACA;
@@ -116,7 +120,10 @@ header .right div:nth-child(2) p:nth-child(2){
 		background: url(../imags/zixun.png) no-repeat 0 center;
 		background-size:30px auto;
 		display: block;
-		padding-left:30px;
+		padding-left:40px;
+	}
+	header .right div:nth-child(2) a span{
+		margin: 0 5px
 	}
 	header .right div:nth-child(2) p:nth-child(1){
 		color: #017BB6;
@@ -278,6 +285,8 @@ nav .twonav a.active{
 	font-size: 24px;
 	color:white;
 	background: #D00000;
+	letter-spacing: 2px;
+	font-weight: 600;
 }
 .banner a:nth-child(2){
 	position: absolute;
@@ -317,15 +326,18 @@ nav .twonav a.active{
 	}
 	.banner p:nth-child(3){
 		position: absolute;
-		left: 50%;
+		left: 45%;
 		top: 60%;
+	}
+	.banner p:nth-child(3) a{
+		border-radius:5px 0 0 5px;
 	}
 	.banner  span{
 		background: rgba(0,0,0,0.2);
 		display: inline-block;
 		padding:5px 8px;
 		font-size: 12px;
-		margin-left: -2px;
+		margin-left: 0;
 		color: white;
 	}
 }
@@ -352,11 +364,12 @@ nav .twonav a.active{
 	text-align: center;
 }
 .employer .content .left p{
-	font-size: 16px;
+	font-size: 20px;
 	line-height:30px;
 	color: #242424;
 	background: #EBF2F7;
 	padding: 20px;
+	letter-spacing: 1px;
 }
 .employer .content .right p:nth-child(1){
 	display: inline-block;
@@ -375,12 +388,14 @@ nav .twonav a.active{
 	margin-top: 30px;
 	font-size: 20px;
 	color: #242424;
+	letter-spacing: 1px;
 }
 .employer ul li:nth-child(1){
 	background: url(../imags/emp03.png) no-repeat 0 100%;
 	text-indent: 40px;
 	font-size: 20px;
 	color: #242424;
+	letter-spacing: 2px;
 }
 .employer ul li:last-child{
 	background: url(../imags/emp04.png) no-repeat 0 100%;
@@ -397,7 +412,7 @@ nav .twonav a.active{
 	padding:10px 15px;
 	color: white;
 	text-align: center;
-	font-size: 16px;
+	font-size: 22px;
 	vertical-align: text-bottom;
 	margin-right: 30px;
 }
@@ -422,11 +437,12 @@ nav .twonav a.active{
 }
 .employer .right .bottom>span span{
 	display: block;
-	width: 50%;
+	width: 80%;
 	margin: auto;
 	position: absolute;
 	left: 50%;
 	top: 50%;
+	font-size: 20px;
 	transform: translate(-50%,-50%);
 }
 .employer .right .bottom span:nth-child(n+2){
@@ -475,8 +491,9 @@ nav .twonav a.active{
 		text-align: left;
 		border-bottom: 2px solid #FDCB94;
 		margin-top: 20px;
-		font-size: 14px;
+		font-size: 12px;
 		color: #242424;
+		letter-spacing: 1px;
 	}
 	.employer ul li:nth-child(1){
 		background: url(../imags/emp03.png) no-repeat 0 100%;
@@ -484,6 +501,7 @@ nav .twonav a.active{
 		text-indent: 40px;
 		font-size: 14px;
 		color: #242424;
+		letter-spacing: 1px;
 	}
 	.employer ul li:last-child{
 		background: url(../imags/emp04.png) no-repeat 0 100%;
@@ -498,7 +516,7 @@ nav .twonav a.active{
 		border-radius:50%;
 		background: url(../imags/yuan.png) no-repeat center center;
 		background-size:100% auto;
-		padding:5px 10px;
+		padding:6px 10px;
 		color: white;
 		text-align: center;
 		font-size: 12px;
@@ -525,6 +543,7 @@ nav .twonav a.active{
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%,-50%);
+		font-size: 12px;
 	}
 	.employer .right .bottom span:nth-child(n+2){
 		margin-left: 0;	
@@ -560,11 +579,12 @@ nav .twonav a.active{
 	width: 60%;	
 }
 .experience .content .left p{
-	font-size: 16px;
+	font-size: 20px;
 	line-height:30px;
 	color: #242424;
 	background: #EBF2F7;
 	padding: 20px;
+	letter-spacing: 1px;
 }
 .experience .content .right p{
 	font-size: 26px;
@@ -578,12 +598,13 @@ nav .twonav a.active{
 	text-indent: 50px;
 	font-size: 20px;
 	color: #3B3B3B;
+	letter-spacing: 1px;
 }
 .experience .content .right ul li p{
 	font-size: 20px;
 }
 .experience .content .right ul li:nth-child(n+2){
-	margin-top: 50px;
+	margin-top: 40px;
 }
 .experience .backdrop{
 	margin-top: 50px;
@@ -606,15 +627,16 @@ nav .twonav a.active{
 	font-size: 26px;
 	color: #3B3B3B;
 	font-weight: bold;
+	letter-spacing: 1.5px;
 }
 .experience .backdrop .right p{
 	text-indent: 40px;
 	padding:0 36px;
-	font-size: 18px;
+	font-size: 20px;
 	color: #414141;
 	letter-spacing: 2px;
 	line-height: 28px;
-	height: 170px;
+	min-height: 170px;
 }
 
 
@@ -625,7 +647,7 @@ nav .twonav a.active{
 	float: left;
 	width: 70%;
 	background: #FFF9EE;
-	height:225px;
+	min-height:225px;
 	padding: 10px;
 }
 .experience .meeting .left ul{
@@ -636,11 +658,13 @@ nav .twonav a.active{
 	margin-top: 5px;
 	font-size: 20px;
 	color: #3B3B3B;
+	letter-spacing: 1px;
 }
 .experience .meeting .left p{
 	font-size: 26px;
 	color: #3B3B3B;
 	font-weight: bolder;
+	letter-spacing: 1px;
 }
 .experience .meeting .right{
 	float: right;
@@ -753,6 +777,7 @@ nav .twonav a.active{
 	}
 	.experience .hrefff u{
 		margin-left:25px;
+		word-break: break-all;
 	}
 }
 
@@ -807,9 +832,11 @@ nav .twonav a.active{
 }
 .condition>ul li div p:nth-child(2){
 	margin: 0 10px;
-	font-size: 18px;
+	font-size: 16px;
 	color: #EBE7E7;
 	margin-top: 25px;
+	letter-spacing: 1px;
+	text-align: left;
 }
 
 @media screen and (max-width: 992px) {
@@ -852,8 +879,9 @@ nav .twonav a.active{
 	font-size: 28px;
 	color: #3B3B3B;
 	padding-left: 70px;
-	background: url(../imags/emp04.png) no-repeat 0 100%;
+	background: url(../imags/emp04.png) no-repeat 0 108%;
 	background-size:28px;
+	letter-spacing: 1px;
 	
 }
 .condition .unscramble .left{
@@ -861,10 +889,13 @@ nav .twonav a.active{
 	width: 12%;
 	background: #EBF2F7;
 	padding: 10px;
-	font-size: 22px;
+	font-size: 20px;
 	color: #3B3B3B;
 	margin-right: 20px;
-	line-height: 40px;
+	line-height: 35px;
+	margin-top: 25px;
+	letter-spacing: 1px;
+	padding: 30px 10px;
 }
 .condition .unscramble .right{
 	float: right;	
@@ -874,7 +905,7 @@ nav .twonav a.active{
 	
 }
 .condition .unscramble .right ul li{
-	margin: 30px 0;
+	margin: 20px 0;
 	color: white;
 	font-size: 16px;
 }
@@ -884,19 +915,22 @@ nav .twonav a.active{
 	color:#3B3B3B;
 	font-weight: bold;
 }
-.condition .unscramble .right ul li:nth-child(1) span:nth-child(2){
+.condition .unscramble .right ul li:nth-child(1) .numadd{
 		display: inline-block;
 		width: auto;
 		padding: 30px;
-		/*padding-right: 500px;*/
 		padding-right:30px;
 		background: url(../imags/unsc02.png) no-repeat 0 center;
 		background-size:100% 85px;
 		transition: all 0.5s;
 }
-.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+.condition .unscramble .right ul li:nth-child(1) .numadd.active{
 	padding-right: 500px;
 }
+/*.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
+	padding-right: 500px;
+}*/
+
 .condition .unscramble .right ul li:nth-child(2) span:nth-child(2){
 	display: inline-block;
 	padding: 30px;
@@ -905,11 +939,14 @@ nav .twonav a.active{
 	
 	background: url(../imags/unsc01.png) no-repeat 0 center;
 	background-size:100% 85px;
-	transition: all 0.5s;
+	transition: all 1s;
 }
-.condition .unscramble .right ul li:nth-child(2) span:nth-child(2):hover{
+.condition .unscramble .right ul li:nth-child(2) .numadd.active{
 	padding-right: 250px;
 }
+/*.condition .unscramble .right ul li:nth-child(2) span:nth-child(2):hover{
+	padding-right: 250px;
+}*/
 .condition .unscramble .right ul li:nth-child(3) span:nth-child(2){
 	display: inline-block;
 	padding: 30px;
@@ -924,9 +961,12 @@ nav .twonav a.active{
 	padding-right: 30px;
 	background: url(../imags/unsc01.png) no-repeat 0 center;
 	background-size:100% 85px;
-	transition: all 0.5s;
+	transition: all 1.4s;
 }
-.condition .unscramble .right ul li:nth-child(4) span:nth-child(2):hover{
+/*.condition .unscramble .right ul li:nth-child(4) span:nth-child(2):hover{
+	padding-right: 160px;
+}*/
+.condition .unscramble .right ul li:nth-child(4) .numadd.active{
 	padding-right: 160px;
 }
 .condition .unscramble .right ul li:nth-child(5) span:nth-child(2){
@@ -936,9 +976,12 @@ nav .twonav a.active{
 	padding-right: 40px;
 	background: url(../imags/unsc02.png) no-repeat 0 center;
 	background-size:100% 85px;
-	transition: all 0.5s;
+	transition: all 1.8s;
 }
-.condition .unscramble .right ul li:nth-child(5) span:nth-child(2):hover{
+/*.condition .unscramble .right ul li:nth-child(5) span:nth-child(2):hover{
+	padding-right: 550px;
+}*/
+.condition .unscramble .right ul li:nth-child(5) .numadd.active{
 	padding-right: 550px;
 }
 
@@ -960,6 +1003,7 @@ nav .twonav a.active{
 		font-size:12px;
 		margin-right: 0;
 		line-height: 20px;
+		padding: 10px;
 	}
 	.condition .unscramble .right ul li:nth-child(1) span:nth-child(2):hover{
 		padding-right: 30px;
@@ -1066,10 +1110,11 @@ nav .twonav a.active{
 .applyfor>ul{
 	background: #11586D;
 	color: white;
-	padding: 10px;
+	padding:30px;
+	padding-bottom:50px;
 }
 .applyfor>ul li{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .applyfor>ul li span{
 	display: inline-block;
@@ -1083,6 +1128,8 @@ nav .twonav a.active{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 .applyfor>ul>li:nth-child(2) ul{
 	padding: 0;
@@ -1092,6 +1139,9 @@ nav .twonav a.active{
 	padding: 0;
 	margin: 0;
 	padding-left: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom:20px;
 	background: url(../imags/applyfpr02.png) no-repeat 0 5px;
 }
 @media screen and (max-width: 1020px) {
@@ -1190,7 +1240,7 @@ nav .twonav a.active{
 .boon ul li p:nth-child(2){
 	border: 2px solid #C8161E;
 	padding: 20px;
-	font-size: 20px;
+	font-size: 19px;
 	color: #464646;
 	letter-spacing: 1.5px;
 	line-height: 30px;
@@ -1407,14 +1457,14 @@ nav .twonav a.active{
 	width: 75%;
 }
 .intro .right p{
-	font-size: 24px;
+	font-size: 20px;
 	color: #3B3B3B;
 	text-indent: 48px;
 	letter-spacing: 0.5px;
 	line-height: 40px;
 }
 .intro .right ul{
-	margin-top: 14px;
+	margin-top: 50px;
 }
 .intro .right ul li{
 	float: left;
@@ -1581,13 +1631,14 @@ slide{
 	position: fixed;
 	top: 55%;
 	right: 5px;
+	z-index: 99999;
 }
 slide .tele,slide .qq{
 	/*width: 50px;
 	height: 50px;*/
 	border: 1px solid red;
 	border-radius:5px;
-	margin-top: 20px;
+	margin-top: 18px;
 	text-align: center;
 	color: red;
 	font-size: 12px;
@@ -1632,7 +1683,7 @@ slide .butto{
 	border: none;
 	font-family: "微软雅黑";
 	font-size: 18px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	font-weight: bold;
 }
 slide .popup.active,slide .popup.active{
@@ -2023,4 +2074,129 @@ slide .popup.active,slide .popup.active{
 		outline: none;
 	}
 }
+.message .big .content form div .tianxie{
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.message .big .content form div .tianxie.active{
+	display: block;	
+}
 
+
+
+
+.popupwindows{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	background: #C8161E;
+	text-align: center;
+	padding:0 30px 30px 30px;
+	color: white;
+	border-radius:10px;
+	z-index: 99999;
+	display: none;
+	transition: all 1s;	
+}
+.popupwindows.retive{
+	top: 98%;
+	left: 94%;
+	width: 10%;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	height: 10px;
+	overflow: hidden;
+	z-index: 99999;
+}
+.popupwindows div:nth-child(1){
+	margin-bottom: 20px;
+	position: relative;
+	height: 20px;
+}
+.popupwindows div:nth-child(1) span{
+	display: inline-block;
+}
+.popupwindows div:nth-child(1) span:nth-child(1){
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 50px;
+	width: 30px;
+	height: 20px;
+	line-height: 15px;
+	border-radius: 0 0 3px 3px;
+	background: #CCCCCC;
+	cursor: default;
+}
+.popupwindows div:nth-child(1) span:nth-child(1).active{
+	display: none;
+}
+.popupwindows div:nth-child(1) span:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	font-size: 10px;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	line-height: 15px;
+	border-radius: 0 0 3px 3px;
+	cursor: default;
+	display: none;
+	padding-top: 10px;	
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.popupwindows div:nth-child(1) span:nth-child(2).active{
+	display:block;
+}
+.popupwindows.active{
+	display: block;
+}
+@media screen and (max-width: 992px) {
+	.popupwindows.active{
+		display: none;
+	}
+}
+.popupwindows div:nth-child(2){
+	background: white;
+	color: black;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.popupwindows div:nth-child(2) p{
+	margin: 5px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #666666;
+}
+.popupwindows div input{
+	border: 1px solid #999999;
+	outline: none;
+	text-align: center;
+	padding: 10px;
+	border-radius:5px;
+}
+.popupwindows div input:nth-child(3){
+	margin-left: 20px;
+	
+}
+.popupwindows button{
+	border: none;
+	background: white;
+	margin:20px 0 10px 0;
+	padding: 10px 20px;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}
