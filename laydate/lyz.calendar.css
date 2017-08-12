@@ -1,6 +1,7 @@
 ﻿/*www.jq22.com*/
+
 .calendar { POSITION: absolute; WIDTH:190px; HEIGHT: 180px; PADDING:0;DISPLAY: none; FLOAT: left;border:1px solid #819dba;background:#fff;z-index: 99999;}
-.calendar .calMain { WIDTH:200px; HEIGHT:180px; FLOAT: left; OVERFLOW: hidden; POSITION: absolute;z-index: 99999;}
+.calendar .calMain { WIDTH:100%; HEIGHT:180px; FLOAT: left; OVERFLOW: hidden; POSITION: absolute; }
 .calendar .calMain .calTitle { WIDTH: 100%; FLOAT: left; HEIGHT: 23px; BACKGROUND: #fff; OVERFLOW: hidden; }
 .calendar .calMain .calTitle .t_date { WIDTH: 149px; FLOAT: left; HEIGHT: 23px; COLOR: #51729D; FONT-WEIGHT: bold; LINE-HEIGHT: 23px; TEXT-ALIGN: center; }
 .calendar .calMain .calTitle .prevMonth { WIDTH: 15px; HEIGHT: 15px; FLOAT: left; MARGIN: 8px 0 0 5px; CURSOR: pointer; BACKGROUND: url(../images/date_bg.png) no-repeat 5px -87px; }
@@ -37,3 +38,6 @@
 .calendar .calMain .calContent .tabY td .current { WIDTH: 40px; LINE-HEIGHT: 40px; BORDER: 1px solid #51729D; FLOAT: left; MARGIN: 0px 0 0 2px; }
 .calendar .calMain .calContent .tabY td .select { WIDTH: 40px; LINE-HEIGHT: 40px; BACKGROUND: #51729D; BORDER: 1px solid #51729D; COLOR: #fff; FLOAT: left; MARGIN: 0px 0 0 2px; }
 .calendar .calMain a:hover { TEXT-DECORATION: none; }
+.message .big .content form .yearmouseone{
+	position: relative;
+}
