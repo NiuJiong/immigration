@@ -1647,11 +1647,16 @@ slide .tele,slide .qq{
 	cursor: pointer;
 }
 
-slide .tele>img,slide .qq>img{
+slide .tele>img{
 	width:25px;
 	margin: auto;
 	margin-top: 5px;
 	margin-bottom:8px;
+}
+slide .qq>img{
+	width:30px;
+	margin-top: 3px;
+	margin-bottom:5px;
 }
 slide .tele>span,slide .qq>span{
 	display: none;
@@ -2086,6 +2091,16 @@ slide .popup.active,slide .popup.active{
 
 
 
+
+
+
+
+
+
+
+
+
+
 .popupwindows{
 	position: fixed;
 	top: 50%;
@@ -2111,6 +2126,7 @@ slide .popup.active,slide .popup.active{
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
+	padding:0 30px 30px 0;
 	height: 10px;
 	overflow: hidden;
 	z-index: 99999;
@@ -2143,7 +2159,6 @@ slide .popup.active,slide .popup.active{
 	top: 0;
 	right: 0;
 	left: 0;
-	font-size: 10px;
 	font-size: 20px;
 	height: 40px;
 	line-height: 40px;
@@ -2160,11 +2175,6 @@ slide .popup.active,slide .popup.active{
 }
 .popupwindows.active{
 	display: block;
-}
-@media screen and (max-width: 992px) {
-	.popupwindows.active{
-		display: none;
-	}
 }
 .popupwindows div:nth-child(2){
 	background: white;
@@ -2199,4 +2209,37 @@ slide .popup.active,slide .popup.active{
 	font-size: 18px;
 	outline: none;
 	cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+	.popupwindows{
+		width: 80%;
+		padding:0 10px 30px 10px;
+	}
+	.popupwindows.retive{
+		top: 50%;
+		left: 99%;
+		width: 5%;
+		height: 80px;
+	}
+	.popupwindows div:nth-child(1).active{
+		margin-bottom: 30px;
+		position: relative;
+		height: 100px;
+		line-height: 30px;
+	}
+	.popupwindows div:nth-child(1) span:nth-child(2).active{
+		display:block;
+		line-height: 20px;
+	}
+	.popupwindows div:nth-child(2) p{
+		font-size: 14px;
+	}
+	.popupwindows div input{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.popupwindows button{
+		letter-spacing: 1px;
+		font-size: 16px;	
+	}
 }

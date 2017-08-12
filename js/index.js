@@ -131,7 +131,7 @@ $(function(){
 //	弹窗
 	setTimeout(function(){
 		$(".popupwindows").addClass("active");
-	},5000);
+	},0);
 	
 	$(".suoxiao").click(function(){
 		$(".popupwindows").addClass("retive");
@@ -144,5 +144,14 @@ $(function(){
 		$(".suoxiao").removeClass("active");
 		$(".yuyues").removeClass("active");
 	});
+	if($(window).width()<800){
+		$(".suoxiao").click(function(){
+			$(".popupwindows div:eq(0)").addClass("active");
+		});
+		
+		$(".yuyues").click(function(){
+			$(".popupwindows div:eq(0)").removeClass("active");
+		});
+	}
 })
 
