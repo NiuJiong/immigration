@@ -1757,6 +1757,9 @@ slide .popup.active,slide .popup.active{
 	overflow: hidden;
 	overflow-y:scroll ;
 }
+body.active{
+	overflow: hidden;
+}
 .message.active{
 	bottom: 0;
 }
@@ -1893,7 +1896,9 @@ slide .popup.active,slide .popup.active{
 	margin-top: -5px;
 	font-size: 19px;
 }
-
+.message .big .content form .yearmouseone{
+	position: relative;
+}
 
 
 
