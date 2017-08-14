@@ -33,14 +33,13 @@ $(function(){
 
 	
 //	nav点击效果
-	$(".twonav div").click(function(){
-		var index = $(this).index()+1;
+	$("nav ul li").click(function(){
+		var index = $(this).index();
 		
-		if(index >= $(".twonav div").length){
+		if(index >= $("nav ul a").length){
 			index = 0;
 		}
 		var top = $(".navclick:eq("+index+")").offset().top-268;
-		console.log(index);
 		$('html,body').animate({
 			scrollTop:top
 		},500);
@@ -61,6 +60,10 @@ $(function(){
 //	form
 	$(".butto").click(function(){
 		$(".message").addClass("active");
+	});
+	$(".popupwindows button").click(function(){
+		$(".message").addClass("active");
+		
 	});
 	$(".x").click(function(){
 		$(".message").removeClass("active");

@@ -151,7 +151,7 @@ nav ul{
 }
 nav ul li{
 	float: left;
-	width: 16.6%;
+	width: 20%;
 	text-align: center;
 }
 nav ul li a{
@@ -1752,7 +1752,7 @@ slide .popup.active,slide .popup.active{
 	right: 0;
 	bottom:100%;
 	background: rgba(0,0,0,0.5);
-	z-index: 88888;
+	z-index: 88889;
 	transition: all 1s;
 	overflow: hidden;
 	overflow-y:scroll ;
@@ -2155,9 +2155,11 @@ body.active{
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
-	background: #C8161E;
+	background: url(../imags/message01.png) no-repeat 8% 8%,url(../imags/message02.png) no-repeat 92% 92%;
+	background-size:30% auto,30% auto;
+	background-color: #C8161E;
 	text-align: center;
-	padding:0 30px 30px 30px;
+	padding:0 30px 50px 30px;
 	color: white;
 	border-radius:10px;
 	z-index: 88888;
@@ -2172,10 +2174,13 @@ body.active{
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
-	padding:0 30px 30px 0;
+	padding:0 30px 30px 30px;
 	height: 10px;
 	overflow: hidden;
 	z-index: 88888;
+	background: none;
+	background-color: #C8161E;
+	
 }
 .popupwindows div:nth-child(1){
 	margin-bottom: 20px;
@@ -2213,8 +2218,9 @@ body.active{
 	cursor: default;
 	display: none;
 	padding-top: 10px;	
-	font-weight: bold;
+	
 	letter-spacing: 2px;
+	text-align: center;
 }
 .popupwindows div:nth-child(1) span:nth-child(2).active{
 	display:block;
@@ -2223,16 +2229,21 @@ body.active{
 	display: block;
 }
 .popupwindows div:nth-child(2){
-	background: white;
+	background: ;
 	color: black;
 	padding: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 .popupwindows div:nth-child(2) p{
-	margin: 5px;
+	margin: 20px;
 	letter-spacing: 1px;
 	font-weight: bold;
-	color: #666666;
+	color: white;
+	font-size: 20px;
+}
+.popupwindows div:nth-child(2) p span{
+	font-size: 28px;
+	margin: 0 5px;
 }
 .popupwindows div input{
 	border: 1px solid #999999;
@@ -2248,17 +2259,21 @@ body.active{
 .popupwindows button{
 	border: none;
 	background: white;
-	margin:20px 0 10px 0;
+	margin:10px 0 10px 0;
 	padding: 10px 20px;
 	color: red;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 24px;
+	font-weight: bold;
 	outline: none;
 	cursor: pointer;
+	width: 50%;
+	border-radius:10px;
+	letter-spacing: 2px;
 }
 @media screen and (max-width: 992px) {
 	.popupwindows{
-		width: 80%;
+		width: 90%;
 		padding:0 10px 30px 10px;
 	}
 	.popupwindows.retive{
@@ -2266,6 +2281,7 @@ body.active{
 		left: 99%;
 		width: 5%;
 		height: 80px;
+		padding:0 30px 30px 5px;
 	}
 	.popupwindows div:nth-child(1).active{
 		margin-bottom: 30px;
@@ -2277,8 +2293,19 @@ body.active{
 		display:block;
 		line-height: 20px;
 	}
+	.popupwindows div:nth-child(2){
+		background: ;
+		color: black;
+		padding:5px;
+		margin-bottom: 0;
+	}
 	.popupwindows div:nth-child(2) p{
 		font-size: 14px;
+		font-weight: 100;
+	}
+	.popupwindows div:nth-child(2) p span{
+		font-size: 18px;
+		font-weight: 100;
 	}
 	.popupwindows div input{
 		font-size: 14px;
@@ -2286,6 +2313,7 @@ body.active{
 	}
 	.popupwindows button{
 		letter-spacing: 1px;
-		font-size: 16px;	
+		font-size: 16px;
+		margin:0 0 10px 0;
 	}
 }
