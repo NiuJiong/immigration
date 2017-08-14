@@ -1658,7 +1658,10 @@ slide .qq>img{
 	margin-top: 3px;
 	margin-bottom:5px;
 }
-slide .tele>span,slide .qq>span{
+slide .tele a{
+	color: red;
+}
+slide .tele a>span,slide .qq>span{
 	display: none;
 }
 slide .popup img,slide .popup img{
@@ -1702,7 +1705,7 @@ slide .popup.active,slide .popup.active{
 		left: 0;
 		bottom:0;
 	}
-	slide .tele>span,slide .qq>span{
+	slide .tele a>span,slide .qq>span{
 		display: block;
 	}
 	slide .tele>img,slide .qq>img{
@@ -1714,7 +1717,7 @@ slide .popup.active,slide .popup.active{
 		vertical-align: middle;
 		margin-right: 5px
 	}
-	slide .tele>p,slide .qq>p{
+	slide .tele a>p,slide .qq>p{
 		display: inline-block;
 	}
 	slide .tele,slide .qq{
@@ -2317,3 +2320,9 @@ body.active{
 		margin:0 0 10px 0;
 	}
 }
+slide .tele .htrftel{
+	color: red;
+}
+/*slide .tele .htrftel p{
+	display: inline-block;
+}*/
