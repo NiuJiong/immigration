@@ -93,52 +93,52 @@ $(function(){
 //	表单检测
 //console.log($(".message .big .content form").position().top);
 //console.log($(".done").position().top);
-	var formheight = $(".message .big .content form").position().top;
-	$(".message .big .content form .clitj").click(function(){
-		
-		
-		
-		for(var i=0;i<$(".message .big .content form .tianxie").length;i++){
-			if($(".done:eq("+i+") input").val()==""){
-				$(".done:eq("+i+") .tianxie").addClass("active");
-				
-			}else{
-				$(".done:eq("+i+") .tianxie").removeClass("active");
-			}
-		}
-		
-		
-		
-		
-		for(var i=0;i<$(".message .big .content form .donetwo").length;i++){
-			if($(".donetwo:eq("+i+") .che").is(".active")){
-				$(".donetwo:eq("+i+") .tianxie").removeClass("active");
-			}else{
-				$(".donetwo:eq("+i+") .tianxie").addClass("active");
-			}
-		}
-		
-		
-		
-		
-		
-		if($(".doneone textarea").val()==""){
-				$(".doneone .tianxie").addClass("active");
-				
-			}else{
-				$(".doneone .tianxie").removeClass("active");
-		}
-	});
-	
-	$(".message .content form input").click(function(){
-		$(".message .content form input").removeClass("active");
-		$(".message .content form textarea").removeClass("active");
-		$(this).addClass("active");
-	});
-	$(".message .content form textarea").click(function(){
-		$(".message .content form input").removeClass("active");
-		$(this).addClass("active");
-	});
+//	var formheight = $(".message .big .content form").position().top;
+//	$(".message .big .content form .clitj").click(function(){
+//		
+//		
+//		
+//		for(var i=0;i<$(".message .big .content form .tianxie").length;i++){
+//			if($(".done:eq("+i+") input").val()==""){
+//				$(".done:eq("+i+") .tianxie").addClass("active");
+//				
+//			}else{
+//				$(".done:eq("+i+") .tianxie").removeClass("active");
+//			}
+//		}
+//		
+//		
+//		
+//		
+//		for(var i=0;i<$(".message .big .content form .donetwo").length;i++){
+//			if($(".donetwo:eq("+i+") .che").is(".active")){
+//				$(".donetwo:eq("+i+") .tianxie").removeClass("active");
+//			}else{
+//				$(".donetwo:eq("+i+") .tianxie").addClass("active");
+//			}
+//		}
+//		
+//		
+//		
+//		
+//		
+//		if($(".doneone textarea").val()==""){
+//				$(".doneone .tianxie").addClass("active");
+//				
+//			}else{
+//				$(".doneone .tianxie").removeClass("active");
+//		}
+//	});
+//	
+//	$(".message .content form input").click(function(){
+//		$(".message .content form input").removeClass("active");
+//		$(".message .content form textarea").removeClass("active");
+//		$(this).addClass("active");
+//	});
+//	$(".message .content form textarea").click(function(){
+//		$(".message .content form input").removeClass("active");
+//		$(this).addClass("active");
+//	});
 	
 	
 	
