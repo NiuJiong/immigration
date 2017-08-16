@@ -1694,6 +1694,9 @@ slide .butto{
 	letter-spacing: 2px;
 	font-weight: bold;
 }
+slide .butto a{
+	color: white;
+}
 slide .popup.active,slide .popup.active{
 	display: block;
 }
@@ -2273,6 +2276,9 @@ body.active{
 	width: 50%;
 	border-radius:10px;
 	letter-spacing: 2px;
+}
+.popupwindows button a{
+	color: red;
 }
 @media screen and (max-width: 992px) {
 	.popupwindows{
