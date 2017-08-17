@@ -1786,6 +1786,7 @@ body.active{
 	width:100%;
 	height: 100%;
 	border: none;
+/*	background: white;*/
 }
 @media (max-width:992px) {
 	.message div{
